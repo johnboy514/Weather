@@ -1,0 +1,37 @@
+.weatherIcon {
+    font-size: 2.6rem;
+}
+
+.date {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.searchHistory {
+    list-style: none;
+}
+
+.searchHistory li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+
+  button:hover {
+    background-color: lightblue; /* Green */
+    color: white;
+  }
