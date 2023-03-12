@@ -28,7 +28,7 @@ var getWeather = function () {
 });
 };
 
-function renderHistory() {
+function previousSearches() {
   previouslySearched.innerHTML = "";
   for (var i = 0; i < searchHistory.length; i++) {
     var history = searchHistory[i];
@@ -46,7 +46,7 @@ function init() {
   if (storedHistory !== null) {
     searchHistory = storedHistory;
   }
-  renderHistory();
+  previousSearches();
 }
 
 function storeHistory() {
@@ -60,7 +60,7 @@ previouslySearched.addEventListener("click", function(event) {
     searchCity = searchHistory[index];
     getWeather();
     storeHistory();
-    renderHistory();
+    previousSearches();
   }
 });
 
@@ -81,7 +81,7 @@ $(searchFor).on("submit", function (event) {
   searchHistory.unshift(searchCity);
   searchCity = "";
     storeHistory();
-    renderHistory();
+    previousSearches();
   }
   });
 
