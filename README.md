@@ -23,9 +23,6 @@ To utilize this page the user can navigate to the text field in the top left as 
 
 ## Credits
 
-Robert Obernier
-https://github.com/rjo6615
-
 ## License
 
 N/A
