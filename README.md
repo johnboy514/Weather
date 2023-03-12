@@ -17,9 +17,9 @@ To use this project the user needs to open the index.html on a live server. it c
 
 ## Usage
 
-To utilize this page the user can navigate to the text field in the top left as displayed by the video below and type ina location. After typing in a location and hitting enter the user should have the data for the coming week displayed to them. This data can then be used and when a future result is searched it will store previous searches below. 
+To utilize this page the user can navigate to the text field in the top left as displayed by the video below and type in a location. After typing in a location and hitting enter the user should have the data for the coming week displayed to them. This data can then be used and when a future result is searched it will store previous searches below. 
 
-![Main-Page](assets/images/Weather%20Dashboard.gif)
+![Main-Page](assets/images/Weather.jpg)
 
 ## Credits
 
